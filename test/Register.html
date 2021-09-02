@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title> Registration Form </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body >
+    <div class="register">
+        <header>
+            <div class = "navigation-container">
+                <div class = "top-head">
+                    <div class = "web-name">
+                        <h1>Unravel News</h1>
+                    </div>
+                </div>
+    
+                <div class = "nav-bar" id = "nav-bar">
+                    <nav>
+                        <ul>
+                            <li><a href = "index.html">home</a></li>
+                            <li><a href = "untest.html">Login</a></li>
+                            <li><a href = "Register.html">Register</a></li>
+                            <li><a href = "contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        <p><h1 align="center"> Form </h1></p>
+        <div class="form">
+        <table align="center" >
+        <form id="form1">
+            <tr>
+                <td> Name*:- </td>
+                <td> <input type="Name" placeholder="Name"> </td>
+            </tr>
+            <tr>
+                <td> Email* :- </td>
+                <td> <input type="mail" placeholder="Email"> </td>
+            </tr>
+            <tr>
+                <td>Gender*:-</td>
+                <td>  <input type="radio" id="male" value="male" name="gender">
+                      <label for="male">Male</label>
+                      <input type="radio" id="female" value="female" name="gender">
+                      <label for="female">Female</label><br>
+                      <input type="radio" id="Other" value="Other"name="gender">
+                      <label for="Other">Other</label><br></td>
+            </tr>
+            <tr>
+                <td>Password*:-</td>
+                <td><input type="password"placeholder="Enter password"></td>
+            </tr>
+            <tr>
+                <td> Subscription:-</td>
+                <td>
+                    <select>
+                        <option> Select </option>
+                        <option> Free </option>
+                        <option> Premium</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                
+                    <td>Type of News:-</td>
+                    <td>
+                    <input type="checkbox" id="tech"  value="Technology">
+                    <label for="tech">Technology</label><br>
+                    <input type="checkbox" id="Political" value="Political">
+                    <label for="Political"> Political</label><br>
+                    <input type="checkbox" id="Sports"  value="Sports">
+                    <label for="Sports"> Sports</label>
+                    </td>
+               
+            </tr>
+            <tr>
+                <td>Upload Photo:-</td>
+                <td>
+                    <label for="myfile"></label>
+                    <input type="file" id="myfile" name="myfile">
+                </td>
+            </tr>
+            <tr>
+                <td> Feedback </td>
+                <td>
+                    <textarea name="comments" id ="comment" cols="20"rows="4"required></textarea> 
+                </td>
+            </tr>
+        </form>
+        <td></td>
+        <td >
+           <button type="submit" form="form1" value="Submit"> <a href="untest.html">Submit</button></a>
+            <input type="reset" form="form1" value="Reset">
+        </td>
+        </table>
+        </div>
+    </div>
+    </body>
+</html>
+
